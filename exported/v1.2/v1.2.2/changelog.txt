@@ -1,0 +1,39 @@
+HC-3DGraphicsEngine
+	Changelog:
+		v1.0:
+			- OBJ file loading
+			- User input:
+			  WASD for movement
+			  arrow keys for looking around
+	
+	
+		v1.1:
+			- Looking around now changes the direction you travel in along the z azis
+			  (W and S keys)
+			v1.1.1:
+				- Restructure of directory:
+				  resources in $(OutDir)res	(Release/res)
+				  with each file type in respective folder
+				  (ie. .obj in Release/res/objects/)
+				- Sky is now blue
+				- Removed input from A and D keys
+				- objects rendered with triangle edges only - (working on v1.2)
+			v1.1.2:
+				- Big terrain OBJ file
+				- Triangles now filled in
+		
+		v1.2:		
+			- Introduced new logging system. latest.log contains data about
+			  how the program has been running
+			- Big terrain OBJ removed replaced with cube and only edges of triangles
+			  filled in due to working on textures and it being easier to do so with
+			  cubes
+
+			v1.2.1:
+				- logs now stored in $(OutDir)logs    (Release/logs)
+			v1.2.2:
+				- Higher screen size
+				- Sky colour now blue instead of cyan
+				- Big terrain OBJ added back
+				- Big terrain OBJ now green
+				- Triangles filled in again

@@ -1,0 +1,7 @@
+HC-3DGraphicsEngine
+	Changelog:
+		v1.0:
+			- OBJ file loading
+			- User input:
+			  WASD for movement
+			  arrow keys for looking arounds/objects/)

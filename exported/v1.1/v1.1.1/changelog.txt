@@ -1,0 +1,19 @@
+HC-3DGraphicsEngine
+	Changelog:
+		v1.0:
+			- OBJ file loading
+			- User input:
+			  WASD for movement
+			  arrow keys for looking around
+		v1.1:
+			- Looking around now changes the direction you travel in along the z azis
+			  (W and S keys)
+		v1.1.1:
+			- Restructure of directory:
+			  resources in $(OutDir)res	(Release/res)
+			  with each file type in respective folder
+			  (ie. .obj in Release/res/objects/)
+			- Sky is now blue
+			- Removed input from A and D keys
+			- objects rendered with triangle edges only - (working on v1.2)
+			
