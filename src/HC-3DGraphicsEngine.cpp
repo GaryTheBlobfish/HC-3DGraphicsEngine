@@ -3,6 +3,10 @@
 
 // javidx9
 #include "olcConsoleGameEngine.h"
+/*
+	- It is important to note that credit is due to javidx9/OneLoneCoder for the tutorials on this software
+
+*/
 
 // c++
 #include <iostream>
